@@ -11,4 +11,4 @@ RUN apk --update add openssh \
 
 COPY rootfs/entrypoint.sh /
 RUN chmod +x /entrypoint.sh
-COPY .m2 /root/.m2
+ADD .m2 /root/.m2
