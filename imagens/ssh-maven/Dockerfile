@@ -10,3 +10,4 @@ RUN apk --update add openssh \
   && rm -rf /var/cache/apk/*
 
 COPY rootfs /
+RUN chmod +x /entrypoint.sh
