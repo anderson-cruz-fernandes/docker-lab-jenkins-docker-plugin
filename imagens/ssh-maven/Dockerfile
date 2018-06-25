@@ -1,4 +1,4 @@
-FROM 3.5.4-jdk-8-alpine
+FROM maven:3.5.4-jdk-8-alpine
 MAINTAINER Equipe SAOPS "saops@tre-es.jus.br"
 
 EXPOSE 22
